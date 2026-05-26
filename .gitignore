@@ -1,0 +1,69 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*~
+*.test
+
+# Build outputs
+bin/
+build/
+dist/
+out/
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.exe~
+
+# Go modules cache
+pkg/
+
+# Test coverage
+coverage.out
+coverage.html
+coverage.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Docker
+docker-compose.override.yml
+
+# Test data
+testdata/*.bin
+test-output/
+
+# Temporary files
+tmp/
+temp/
+
+# Generated protobuf
+gen/
+
+# Third party
+vendor/
